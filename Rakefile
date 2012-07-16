@@ -21,8 +21,8 @@ end
 
 RSpec::Core::RakeTask.new(:rcov) do |spec|
   spec.pattern = FileList['spec/**/*_spec.rb']
-  spec.rcov = true
-  spec.rcov_opts = "--exclude 'spec/*'"
+  # spec.rcov = true
+  #   spec.rcov_opts = "--exclude 'spec/*'"
 end
 
 desc "Download Cassandra and run specs against it"

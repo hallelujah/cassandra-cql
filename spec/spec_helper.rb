@@ -24,3 +24,7 @@ def setup_cassandra_connection
 
   connection
 end
+require 'simplecov'
+SimpleCov.start do
+  add_filter "/spec/"
+end
