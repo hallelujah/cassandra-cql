@@ -8,6 +8,7 @@ require 'rspec/core/rake_task'
 CassandraBinaries = {
   '0.8' => 'http://archive.apache.org/dist/cassandra/0.8.8/apache-cassandra-0.8.8-bin.tar.gz',
   '1.0' => 'http://archive.apache.org/dist/cassandra/1.0.5/apache-cassandra-1.0.5-bin.tar.gz',
+  '1.1' => 'http://archive.apache.org/dist/cassandra/1.1.2/apache-cassandra-1.1.2-bin.tar.gz',
 }
 
 CASSANDRA_VERSION = ENV['CASSANDRA_VERSION'] || '1.0'

@@ -2,7 +2,7 @@
 require File.expand_path("../lib/cassandra-cql/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "cassandra-cql"
+  s.name        = "hallelujah-cassandra-cql"
   s.version     = CassandraCQL::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Kelley Reynolds"]
